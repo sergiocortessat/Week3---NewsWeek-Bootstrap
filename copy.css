@@ -1,0 +1,881 @@
+/* Selector for the nav tag */
+nav {
+    border-bottom: 2px solid #f4f5f6;
+  }
+  
+  /* Selector for the figure before the nav at the top of the page */
+  nav::before {
+    position: absolute;
+    right: 0;
+    content: "";
+    width: 78px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
+  
+  /* Selector for the navbar */
+  .navbar {
+    background-color: #f72210;
+    height: 50px;
+  }
+  
+  /* Selector for the newsweek logo at the navbar */
+  .newsweek-nav-logo {
+    width: 119px;
+    height: 18px;
+    margin-bottom: 2px;
+  }
+  
+  /* Selector for the sign in anchor at the navbar */
+  .navbar-text {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  /* Selector for the sign in anchor at the navbar when hovering */
+  .navbar-text:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Selector for the sign in anchor at the navbar */
+  .navbar-sign-in {
+    position: relative;
+    right: 2px;
+  }
+  
+  /* Selector for the subscribe anchor at the navbar */
+  .subscribe-navbar {
+    background-color: white;
+    color: #f72210;
+    padding: 6px 3px;
+  }
+  
+  /* Selector for the subscribe anchor at the navbar when hovering */
+  .subscribe-navbar:hover {
+    color: #f72210;
+  }
+  
+  /* Selector for the right arrow at the navbar */
+  .right-arrow {
+    position: relative;
+    bottom: 1px;
+    display: none;
+  }
+  
+  /* Selector for the menu icon at the navbar */
+  .menu-icon-navbar {
+    width: 24px;
+  }
+  
+  /* Selector for the date located at the navbar */
+  .navbar-date {
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 100;
+  }
+  
+  /* Selector for the second row at the navbar */
+  .second-row-navbar {
+    width: 92%;
+  }
+  
+  /* Selector for the list items at the second row at the navbar */
+  .navbar-list-item {
+    border-left: solid 1px #d9d9d9;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  /* Selector for the links at the second row at the navbar */
+  .navbar-link {
+    color: black;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+  
+  /* Selector for the links at the second row at the navbar when hovering */
+  .navbar-link:hover {
+    text-decoration: none;
+    color: #f72210;
+  }
+  
+  /* Selector for the word search at the second row at the navbar */
+  .search-span {
+    font-size: 17px;
+  }
+  
+  /* Selector for section's titles */
+  .section-title {
+    color: rgba(3, 3, 3, 0.4);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+  }
+  
+  /* Selector for the category link inside the image at sections */
+  .section-image-category {
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 16px;
+    color: #f72210;
+    text-transform: uppercase;
+    padding: 8px 15px 9px 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* Selector for the category link inside the image at sections when hovering */
+  .section-image-category:hover {
+    text-decoration: none;
+    color: #f72210;
+  }
+  
+  /* Selector for the headers at the different sections */
+  .section-header {
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Selector for the links at the headers at the different sections */
+  .section-header-link {
+    color: black;
+  }
+  
+  /* Selector for the links at the headers at the different sections when hovering */
+  .section-header-link:hover {
+    color: black;
+    text-decoration-color: #f72210;
+  }
+  
+  /* Selector for paragraphs at the different sections */
+  .section-paragraph {
+    color: #333;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Selector for the related headers at different sections */
+  .section-related-header {
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: bold;
+    color: black;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 10px;
+    display: block;
+  }
+  
+  /* Selector for the related headers at different sections */
+  .section-related-header:hover {
+    color: #f72210;
+    text-decoration: none;
+  }
+  
+  /* Selector for images at second section */
+  .second-section-img {
+    width: 100%;
+  }
+  
+  /* Selector for second section headers */
+  .second-section-header {
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Selector for second section header's links */
+  .second-section-header-link {
+    color: black;
+  }
+  
+  /* Selector for second section header's links when hovering */
+  .second-section-header-link:hover {
+    color: black;
+    text-decoration-color: #f72210;
+  }
+  
+  /* Selector for the third section */
+  .third-section {
+    background-color: #f4f5f7;
+  }
+  
+  /* Selector for headers at the third section */
+  .third-section-header {
+    padding: 15px 10px 20px 10px;
+    font-size: 20px;
+    line-height: 22px;
+    font-family: Lora, serif;
+    margin-bottom: 0;
+  }
+  
+  /* Selector for the header's link at the third section when hovering */
+  .third-section-header-link {
+    color: #272727;
+  }
+  
+  /* Selector for the header's link at the third section when hovering */
+  .third-section-header-link:hover {
+    color: #272727;
+    text-decoration: none;
+  }
+  
+  /* Selector for paragraphs at the third section */
+  .third-section-paragraph {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgba(39, 39, 39, 0.5);
+    margin-bottom: 10px;
+    padding: 0 10px;
+    bottom: 10px;
+  }
+  
+  /* Selector for the container for the anchors describing the category at the third section */
+  .third-section-category-container {
+    bottom: 8px;
+  }
+  
+  /* Selector for anchors describing the category at the third section */
+  .third-section-category {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #272727;
+    background-color: #c2d4d7;
+    padding: 6px;
+    margin-left: 10px;
+  }
+  
+  /* Selector for anchors describing the category at the third section when
+  hovering */
+  .third-section-category:hover {
+    color: #c2d4d7;
+    background-color: #272727;
+    text-decoration: none;
+  }
+  
+  /* Selector for special fourth section headers (Sponsored Insights) */
+  .fourth-section-header {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  /* Selector for fifth section headers */
+  .fifth-section-header {
+    line-height: 21px;
+  }
+  
+  /* Selector for fifth section header's links */
+  .fifth-section-header-link {
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  /* Selector for fifth section header's links when hovering */
+  .fifth-section-header-link:hover {
+    color: #f72210;
+    text-decoration: none;
+  }
+  
+  /* Selector for the author of the phrase at the fifth section */
+  .quote {
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    text-transform: uppercase;
+    margin-top: 4px;
+    font-weight: bold;
+  }
+  
+  /* Selector for the eighth section */
+  .eighth-section {
+    max-width: 300px;
+    height: 162px;
+    background-color: #f4f5f6;
+  }
+  
+  /* Selector for the newsweek icon at various sections in the page */
+  .newsweek-icon {
+    flex: none;
+    display: inline-block;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f7221e;
+    margin: 28px 10px 0 0;
+  }
+  
+  /* Selector for the slideshow effect for the newsweek icon */
+  .slideshows-icon::after {
+    border-bottom: 3px solid red;
+    border-right: 3px solid red;
+    display: block;
+    content: "";
+    width: 26px;
+    height: 25px;
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+  }
+  
+  /* Selector for the newsweek icon at the eighth section */
+  .eighth-section-icon {
+    margin-left: 22px;
+  }
+  
+  /* Selector for the header at the eighth section */
+  .eighth-section-header {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 19px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    bottom: 16px;
+  }
+  
+  /* Selector for the newsletter span at the eighth section */
+  .newsletter-span {
+    margin-left: 66px;
+  }
+  
+  /* Selector for the container of the button and anchor at the eighth section */
+  .sign-up-container {
+    bottom: 5px;
+  }
+  
+  /* Selector for the eighth section's button */
+  .eighth-section-button {
+    margin: 0 0 10px 22px;
+    padding: 10px 10px 10px 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    background-color: #666;
+    text-transform: uppercase;
+  }
+  
+  /* Selector for the eighth section's button when hovering */
+  .eighth-section-button:hover {
+    background-color: rgba(102, 102, 102, 0.7);
+  }
+  
+  /* Selector for the anchor at the eighth section */
+  .eighth-section-a {
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    margin-left: 22px;
+  }
+  
+  /* Selector for the anchor at the eighth section when hovering */
+  .eighth-section-a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Selector for see all features anchor at section nine */
+  .section-nine-features {
+    background-color: #f4f5f6;
+    color: black;
+    text-align: center;
+    padding: 10px 10px 10px 12px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+  
+  /* Selector for see all features anchor at section nine when hovering */
+  .section-nine-features:hover {
+    background-color: #e2e3e5;
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Selector for the tenth section's h1 */
+  .tenth-section-title {
+    bottom: 8px;
+  }
+  
+  /* Selector for the span at the tenth section */
+  .tenth-section-span {
+    padding: 4px 7px;
+    background-color: #f72210;
+    color: white;
+    margin-right: 7px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+  
+  /* Selector for tenth section's category anchor */
+  .tenth-section-category-anchor {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #f72210;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  
+  /* Selector for tenth section's category anchor when hovering */
+  .tenth-section-category-anchor:hover {
+    color: #f72210;
+    text-decoration: none;
+  }
+  
+  /* Selector for the header of each article at section ten */
+  .tenth-section-header {
+    line-height: 16px;
+  }
+  
+  /* Selector for the link which is the header of each article at section ten */
+  .tenth-section-header-link {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Selector for the link which is the header of each article at section ten when hovering */
+  .tenth-section-header-link:hover {
+    color: black;
+    text-decoration-color: #f72210;
+  }
+  
+  /* Selector for the anchor at the last element at the tenth section */
+  .section-ten-last-element-anchor {
+    bottom: 0;
+    left: 0;
+  }
+  
+  /* Selector for the anchor at the last element at the tenth section when hovering */
+  .section-ten-last-element-anchor:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Selector for categories at images at twelfth section */
+  .section-twelve-category {
+    width: 70px;
+    height: 52px;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background: url(../images/img_section_twelve_category.png) 0 0/contain no-repeat;
+    padding: 0;
+  }
+  
+  /* Selector for the headers at section twelve */
+  .section-twelve-header {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  
+  /* Selector for the anchor at the h1 tag at section thirteen */
+  .section-thirteen-title-link {
+    color: #f72210;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  /* Selector for the anchor at h1 tag at section thirteen when hovering */
+  .section-thirteen-title-link:hover {
+    color: #f72210;
+    text-decoration: none;
+  }
+  
+  /* Selector to add top's border to last sections */
+  .border-top-last-sections {
+    background-color: #d9d9d9;
+    height: 1px;
+    width: 100%;
+  }
+  
+  /* Selector to add bottom's border to last articles */
+  .border-bottom-last-sections {
+    background-color: #d9d9d9;
+    height: 1px;
+    width: 100%;
+    margin: 15px 15px 0 15px;
+  }
+  
+  /* Selector for the divider before the subscribe section */
+  .subscribe-section::before {
+    content: "";
+    display: block;
+    background-color: #f4f5f6;
+    height: 2px;
+    position: relative;
+    right: 15px;
+    width: 100vw;
+    margin-bottom: 30px;
+  }
+  
+  /* Selector for titles at the bottom section */
+  .bottom-section-title {
+    color: #f72210;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+  }
+  
+  /* Selector for subscribe article at the bottom of the page */
+  .subscribe-article {
+    background-color: #f4f5f6;
+  }
+  
+  /* Selector for the first newsweek cover at the bottom of the page */
+  .newsweek-cover-one {
+    left: 45px;
+    max-width: 49%;
+  }
+  
+  /* Selector for the second newsweek cover at the bottom of the page */
+  .newsweek-cover-two {
+    right: 45px;
+    top: 15px;
+    max-width: 49%;
+  }
+  
+  /* Selector for bottom article's headers */
+  .bottom-section-article-header {
+    margin-bottom: 15px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  
+  /* Selector for standard text at the bottom section */
+  .bottom-section-article-text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  /* Selector for buttons at the bottom section */
+  .bottom-section-button {
+    background-color: #f72210;
+    padding: 10px 10px 10px 12px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+  
+  /* Selector for the newsletter image at the bottom of the page */
+  .newsletter-img {
+    height: 160px;
+    object-position: center;
+    object-fit: cover;
+  }
+  
+  /* Selector for the logo at the footer */
+  .footer-logo {
+    width: 236px;
+    height: 36px;
+    margin-bottom: 12px;
+  }
+  
+  /* Selector for the span which contains the copyright text */
+  .copyright-span {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px;
+  }
+  
+  /* Selector for the ul containing social media icons at the footer */
+  .footer-social-media-list {
+    margin-bottom: 12px;
+    align-items: flex-end;
+  }
+  
+  /* Selector for the social media links at the footer */
+  .footer-social-media-link {
+    line-height: 24px;
+    font-size: 26px;
+    color: #666;
+    margin-right: 15px;
+  }
+  
+  /* Selector for links at the footer */
+  .footer-link {
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+    margin: 6px 20px 6px 0;
+  }
+  
+  /* Selector for links at the footer when hovering */
+  .footer-link:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Selector for label tags. There is a label tag at the footer */
+  label {
+    margin-top: 6px;
+    margin-right: 15px;
+    display: inline-block;
+  }
+  
+  /* ==============================================================================
+  MEDIA QUERIES FOR ABOVE 360px
+  ============================================================================== */
+  @media (min-width: 360px) {
+    /* Selector for the newsweek logo at the navbar */
+    .newsweek-nav-logo {
+      width: 132px;
+      height: 20px;
+      margin-bottom: 0;
+    }
+  
+    /* Selector for the sign in anchor at the navbar */
+    .navbar-text {
+      position: relative;
+      right: 8px;
+      font-size: 14px;
+    }
+  
+    /* Selector for the sign in anchor at the navbar */
+    .navbar-sign-in {
+      right: 12px;
+    }
+  }
+  
+  /* ==============================================================================
+  MEDIA QUERIES FOR ABOVE 500px
+  ============================================================================== */
+  @media (min-width: 500px) {
+    /* Selector for the sign in anchor at the navbar */
+    .navbar-text {
+      font-size: 18px;
+      padding: 0 10px;
+      right: 16px;
+    }
+  
+    /* Selector for the right arrow at the navbar */
+    .right-arrow {
+      display: inline-block;
+    }
+  
+    /* Selector for the menu icon at the navbar */
+    .menu-icon-navbar {
+      width: 50px;
+    }
+  }
+  
+  /* ==============================================================================
+  MEDIA QUERIES FOR ABOVE 768px
+   ============================================================================= */
+  @media (min-width: 768px) {
+    /* Selector for the related headers at different sections */
+    .section-related-header {
+      border-bottom: 1px solid #d9d9d9;
+      padding-bottom: 12px;
+    }
+  
+    /* Selector for the seventh section container */
+    .seventh-section-container {
+      width: 330px;
+    }
+  
+    /* Selector for the title's container at the tenth section */
+    .tenth-section-title-container {
+      border-bottom: 1px solid #d9d9d9;
+    }
+  
+    /* Selector for the headers at section twelve */
+    .section-twelve-header {
+      font-size: 22px;
+      line-height: 22px;
+    }
+  
+    /* Selector for the newsletter image at the bottom of the page */
+    .newsletter-img {
+      height: 191px;
+    }
+  
+    /* Selector for the ul containing social media icons at the footer */
+    .footer-social-media-list {
+      position: absolute;
+      right: 0;
+    }
+  
+    /* Selector for label tags. There is a label tag at the footer */
+    label {
+      font-size: 14px;
+      line-height: 15px;
+      margin-top: 8px;
+    }
+  
+    /* Selector to li elements at second to last links list */
+    .footer-last-links {
+      margin-right: 10px;
+    }
+  
+    /* Selector for links at the footer */
+    .footer-link {
+      margin: 6px 0 6px 0;
+      border-right: 1px solid #d9d9d9;
+      padding-right: 10px;
+    }
+  }
+  
+  /* ==============================================================================
+  MEDIA QUERIES FOR ABOVE 992px
+  ============================================================================== */
+  @media (min-width: 992px) {
+    /* Selector for the navbar */
+    .navbar {
+      height: 95px;
+    }
+  
+    /* Selector for the newsweek logo at the navbar */
+    .newsweek-nav-logo {
+      width: 396px;
+      height: 60px;
+    }
+  
+    /* Selector for the date located at the navbar */
+    .navbar-date {
+      position: relative;
+      top: 60px;
+    }
+  
+    /* Selector for the logo at the navbar above 992px */
+    .big-navbar-logo {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    /* Selector for items to the right at the navbar */
+    .right-navbar-item {
+      position: relative;
+      bottom: 50px;
+    }
+  
+    /* Selector for the seventh section container */
+    .seventh-section-container {
+      width: auto;
+    }
+  
+    /* Selector for the eighth section */
+    .eighth-section {
+      height: auto;
+    }
+  
+    /* Selector for text at eighth section */
+    .section-eight-sign-up-text {
+      font-size: 16px;
+    }
+  
+    /* Selector for small text at eighth section */
+    .section-eight-small-text {
+      font-size: 14px;
+    }
+  
+    /* Selector for the divider before the subscribe section */
+    .subscribe-section::before {
+      margin-bottom: 45px;
+    }
+  
+    /* Selector for the newsletter article at the bottom of the page */
+    .newsletter-article {
+      height: calc(100% - 35px);
+    }
+  
+    /* Selector for the container of the image at the newsletter section */
+    .newsletter-img-container {
+      height: 100%;
+    }
+  
+    /* Selector for the newsletter image at the bottom of the page */
+    .newsletter-img {
+      height: 100%;
+    }
+  
+    /* Selector for bottom article's headers */
+    .bottom-section-article-header {
+      font-size: 24px;
+    }
+  }
+  
+  /* ==============================================================================
+  MEDIA QUERIES FOR ABOVE 1200px
+  ============================================================================== */
+  @media (min-width: 1200px) {
+    /* Selector for the headers at the different sections */
+    .section-header {
+      font-size: 24px;
+    }
+  
+    /* Selector for paragraphs at the different sections */
+    .section-paragraph {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  
+    /* Selector for text at eighth section */
+    .section-eight-sign-up-text {
+      font-size: 19px;
+    }
+  
+    /* Selector for small text at eighth section */
+    .section-eight-small-text {
+      font-size: 15px;
+    }
+  
+    /* Selector for special fourth section headers (Sponsored Insights) */
+    .fourth-section-header {
+      line-height: 24px;
+    }
+  
+    /* Selector for the eighth section's button */
+    .eighth-section-button {
+      font-size: 18px;
+    }
+  
+    /* Selector for the header of each article at section ten */
+    .tenth-section-header {
+      line-height: 20px;
+    }
+  
+    /* Selector for the link which is the header of each article at section ten */
+    .tenth-section-header-link {
+      font-size: 20px;
+    }
+  
+    /* Selector for the headers at section twelve */
+    .section-twelve-header {
+      font-size: 22px;
+    }
+  }
