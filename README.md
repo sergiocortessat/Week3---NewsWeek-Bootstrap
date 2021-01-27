@@ -4,7 +4,7 @@
 
 > Creating first repository with Linter, separate commits and a HTML and CSS file
 
-![screenshot](./)
+![screenshot](./https://github.com/sergiocortessat/Week3---NewsWeek-Bootstrap/pull/1)
 
 
 ## Built With
@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](
+[Live Demo Link](https://sergiocortessat.github.io/Week3---NewsWeek-Bootstrap/
 
 
 ## Getting Started
