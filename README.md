@@ -4,7 +4,7 @@
 
 > Creating first repository with Linter, separate commits and a HTML and CSS file
 
-![screenshot](./)
+![screenshot](./Screenshot.png)
 
 
 ## Built With
@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](
+[Try a lıve demo](https://sergiocortessat.github.io/Week3---NewsWeek-Bootstrap/)
 
 
 ## Getting Started
@@ -37,7 +37,7 @@ Microverse Project Week 3.
 
 - GitHub: [@githubhandle](https://github.com/@mgunduz1)
 - Twitter: [@twitterhandle](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mert-gunduz-875280202/)
 
 ## 🤝 Contributing
 
