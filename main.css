@@ -1,0 +1,22 @@
+:root {
+  --color-red: #f72210;
+}
+
+.bg-red {
+  background-color: var(--color-red);
+}
+
+.text-red {
+  color: var(--color-red);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f5f6;
+}
+
+@media (min-width: 992px) {
+  .photo-large-screen {
+    height: 300px;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "linters-config",
+  "version": "1.0.0",
+  "description": "## style command  npx stylelint \"**/*.{css,scss}\"",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "hint": "^6.0.7",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.17.2"
+  },
+  "scripts": {
+    "test": "npm run webhint && npm run stylelint && echo \"✅✅✅ All tests passed ✅✅✅\"",
+    "webhint": "hint .",
+    "stylelint": "stylelint **/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "author": "#",
+  "license": "ISC",
+  "homepage": "#"
+}
